@@ -67,7 +67,7 @@ pub fn to_string(notification: &Notification) -> String {
             fn nickname_for_margin(margin: u8) -> String {
                 match margin {
                     1 => "Clinch".to_string(),
-                    2 => "Hyp&Notization".to_string(),
+                    2 => "Hypnotization".to_string(),
                     3 => "Obliteration".to_string(),
                     4 => "Annihilation".to_string(),
                     5 => "Wipeout".to_string(),
