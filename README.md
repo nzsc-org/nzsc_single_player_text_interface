@@ -17,6 +17,6 @@ use nzsc_single_player_text_interface::{ question, notification };
 let question: nzsc::io::Question = /*...*/;
 let notification: nzsc::io::Notification = /*...*/;
 
-let s = question::to_string(question);
-let s = notification::to_string(notification);
+let s = question::to_string(&question);
+let s = notification::to_string(&notification);
 ```
