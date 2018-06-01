@@ -119,7 +119,7 @@ pub fn to_string(notification: &Notification) -> String {
         &Notification::MoveThreeTimesInARowPenalty {
             ref attempted_move,
         } => {
-            format!("You already chose {} three times in a row. You must choose another move before choosing it again.\n3 wait penalty!", attempted_move)
+            format!("You already chose {} 3 times in a row. You must choose another move before choosing it again.\n3 wait penalty!", attempted_move)
         },
 
         &Notification::MoveSingleUsePenalty {
